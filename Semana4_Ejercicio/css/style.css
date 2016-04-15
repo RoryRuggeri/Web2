@@ -1,0 +1,154 @@
+/* NAV */
+
+.navbar-collapse li {
+	float: left;
+}
+
+.navbar-brand {
+	text-transform: uppercase;
+}
+
+
+/* JUMBOTRON */
+
+
+.jumbotron {
+	height: 500px;
+	position: relative;
+    background: #000 url("../img/home.jpg") center center;
+    width: 100%;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.container {
+
+}
+
+.container h1 {
+	text-transform: uppercase;
+	font-size: 50px!important;
+	padding-top: 300px;
+	letter-spacing: 2px;
+	color:#fff!important;
+	text-shadow: 2px 2px #333333;
+
+
+}
+
+.jumbotron p {
+	font-variant: small-caps;
+	color:#333333;
+	font-weight: bold!important;
+	letter-spacing: 2px;
+}
+
+
+/* ABOUt */
+
+
+.aboutcontainer {
+	margin:0 auto;
+	height: 200px;
+	margin-bottom: 30px;
+	font-style: normal!important;
+}
+
+.aboutimpresionismo {
+	width: 700px;
+	margin: 0 auto;
+}
+
+.aboutimpresionismo p {
+	text-align: justify;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	color: #595959!important;
+	font-style: normal;
+	line-height: 20px;
+}
+
+/* ROW */
+
+.row {
+	margin-bottom: 20px;
+}
+
+/*.col-lg-4 {
+	width: 100px;
+}
+*/  /*no necesitas esto... ya bootstrap define el ancho*/
+
+
+
+.col-lg-4 img {
+	width: 150px;
+	height: 150px;
+}
+
+.col-lg-4 h2{
+	text-align: center;
+	font-variant: small-caps;
+	font-size: 20px!important;
+	letter-spacing: 2px;
+	padding-bottom: 10px;
+}
+
+.col-lg-4 p{
+	color: #595959!important;
+	font-style: normal;
+	font-size: 13px!important;
+	padding-bottom: 10px;
+	text-align: justify;
+	padding: 10px 15px;
+}
+
+.col-lg-4 .btn{
+	width: 110px;
+	font-variant: small-caps;
+	letter-spacing: 1px;
+	text-align: center;
+}
+
+.btn.active.focus, .btn.active:focus, .btn.focus, .btn:active.focus, .btn:active:focus, .btn:focus {
+	outline: 0px!important;
+	outline-offset: 0px;
+}
+
+hr {
+	color:  #808080;
+}
+
+
+/* MODALS */
+
+.modal-title {
+	color: #595959!important;
+}
+
+.modal-footer {
+	color: #595959!important;
+}
+
+
+
+
+
+/* footer */
+
+.pie {
+	margin-top: 30px;
+	margin-bottom: 30px;
+	width: 100%;
+}
+
+.footercontainer {
+	margin: 0 auto;
+	height: 30px;
+}
+
+.footercontainer a {
+	text-decoration: none;
+	color: inherit;
+
+}
