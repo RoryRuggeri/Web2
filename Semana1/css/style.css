@@ -1,0 +1,101 @@
+body {
+	font-family: "helvetica", sans-serif;
+}
+
+.contenedor {
+	width: 1000px;
+	margin: 0 auto;
+}
+
+.banner {
+	width: 1000px;
+	display: block;
+    margin-left: auto;
+    margin-right: auto
+    border-radius: 10%;
+    -webkit-border-radius: 10%;
+}
+
+.zutto{
+	text-align: center;
+	font-size: 40px;
+	margin-top: 30px;
+	margin-bottom: 20px;
+	font-weight: lighter;
+	letter-spacing: 2px;
+	font-variant: small-caps;
+}
+
+h2 {
+	font-weight: bold;
+	font-size: 20px;
+	color: #ccc;
+	font-variant: small-caps;
+	letter-spacing: 2px;
+}
+
+p {
+	font-size: 14px;
+	line-height: 18px;
+	color: #666666;
+	line-height: 25px;
+}
+
+.dibujo1 {
+	width: 1000px;
+	margin: 0 auto;
+	overflow: auto;
+	text-align: center;
+	display: block;
+}
+
+.dibujo2 {
+	width: 1000px;
+	margin: 0 auto;
+	overflow: auto;
+}
+
+.dibujo1 img {
+	width: 40%;
+	margin: 0 auto;
+	margin-top: 30px;
+	margin-bottom: 20px;
+	/*border-radius: 30%;
+	-webkit-border-radius: 30%;*/
+	float: left;
+
+}
+
+.dibujo2 img {
+	width: 40%;
+	margin-top: 30px;
+	margin-bottom: 20px;
+	float: right;
+	/*border-radius: 30%;
+	-webkit-border-radius: 30%;*/
+	overflow: auto;
+}
+
+.description1 {
+	width: 500px;
+	float: left;
+	margin: 0 auto;
+	margin-left: 50px;
+	margin-top: 20px;
+	padding: 20px;
+	text-align: justify;
+    text-justify: inter-word;
+}
+
+.description2 {
+	width: 500px;
+	float: left;
+	margin: 0 auto;
+	margin-top: 20px;
+	padding: 20px;
+	text-align: justify;
+    text-justify: inter-word;
+}
+
+
+
