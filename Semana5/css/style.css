@@ -1,0 +1,445 @@
+@import url(https://fonts.googleapis.com/css?family=Advent+Pro:400,300,200,100,700,500,600);
+@import url(https://fonts.googleapis.com/css?family=Glegoo:400,700);
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+@import url(https://fonts.googleapis.com/css?family=Economica:400,400italic,700,700italic);
+
+body {
+    background: url(../img/home.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+.home {
+width: 700px; 
+margin: 0 auto;
+margin-top: 100px;
+background: rgba(0, 0, 0, 0.7);
+position: relative;
+z-index: 2;
+
+}
+
+.homeone {
+    padding-top: 10px;
+
+}
+
+.homeone h1 {
+    font-family:'Montserrat', sans-serif;
+    color: #fff;
+    line-height: 53px;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 40px;
+    text-align: center;
+    letter-spacing: 10px;
+}
+
+hr {
+     border: 0;
+     width: 500px;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(255, 255, 255, 0.75), rgba(0, 0, 0, 0));
+}
+
+.hometwo h2 {
+  font-family:'Economica', sans-serif;
+    line-height: 22px;
+    letter-spacing: 2px;
+    font-size: 20px;
+    text-align: center;
+    color: #fff;
+    font-weight: bolder;
+    text-transform: uppercase;
+    padding-bottom: 15px
+
+}
+
+.hometwo {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: 25px 25px;
+
+}
+
+.hometwo p{
+    font-family:'Economica', sans-serif;
+    line-height: 22px;
+    font-size: 16px;
+    text-align: justify;
+    color: #fff;
+    letter-spacing: 1px;
+}
+
+
+.homethree{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: 20px 20px;
+}
+
+.homethree p {
+    font-family:'Economica', sans-serif;
+    color: red;
+    line-height: 22px;
+    font-size: 16px;
+    text-align: center;
+    color: #fff;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+/* =========================   ABSOLUTE BUTTONS PROPERTIES ============================== */ 
+
+#A {
+  position: absolute;
+  z-index: 1;
+  top: 0px;
+  left: 0px;
+}
+
+#B {
+  position: absolute;
+  z-index: 1;
+  top: 0px;
+  right: 0px;
+}
+
+
+#C {
+  position: absolute;
+  z-index: 1;
+  bottom: 0px;
+  right: 0px;
+}
+
+
+#D {
+  position: absolute;
+  z-index: 1;
+  bottom: 0px;
+  left: 0px;
+}
+
+
+
+/* =========================   LINKS ============================== */ 
+
+
+.btn {
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.9)
+
+}
+
+.btn a{
+  text-decoration: none;
+  color: #fff;
+  font-size: 23px;
+
+
+}
+
+
+
+#A a:hover {
+  color: #ff0066;
+}
+
+#B a:hover {
+  color: #ffff00;
+}
+
+#C a:hover {
+  color: #00ffff;
+}
+
+#D a:hover {
+  color: #66ff33;
+}
+
+/* =========================   LINKS ============================== */ 
+
+.btn span {
+  vertical-align: middle;
+  padding-top: 10px;
+}
+
+/* ========================= CLOSE BUTTUON MODAL============================== */ 
+
+#btn-close-modal {
+  font-family:'Montserrat', sans-serif;
+   width:100%;
+   cursor:pointer;
+   color:#fff;
+   width: 30px;
+   height: 30px;
+   font-size: 30px;
+}
+
+#btn-close-modal p {
+    padding-top: 2px;
+    display: inline-block;
+}
+
+
+/* ========================= MODAL CHINA ============================== */ 
+/* ========================= MODAL CHINA ============================== */ 
+/* ========================= MODAL CHINA ============================== */ 
+
+
+.elemento1{
+  background: url(../img/elemento1.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+ }
+
+.chinacontainer {
+  width: 700px;
+  background: rgba(0, 0, 0, 0.7);
+  margin-top: 150px;
+  margin-left: 200px;
+}
+
+.chinaarticle {
+  width: 600px;
+  margin: 20px;
+  padding: 20px 20px;
+}
+
+.chinaarticle h3 {
+    font-family:'Montserrat', sans-serif;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 30px;
+    letter-spacing: 5px;
+    text-align: center;
+}
+
+.chinaarticle p {
+    font-family:'Economica', sans-serif;
+    line-height: 24px;
+    font-size: 18px;
+    text-align: justify;
+    color: #fff;
+    letter-spacing: 1px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+
+.chinaarticle hr {
+  border: 0;
+  width: 300px;
+  height: 1px;
+  linear-gradient(to right, rgba(0, 0, 0, 0), rgba(255, 255, 255, 0.75), rgba(0, 0, 0, 0));
+}
+
+.close-elemento1{
+  position: absolute;
+  top: 30px;
+  right: 30px;
+}
+
+
+/* ========================= MODAL mushrooom ============================== */ 
+/* ========================= MODAL mushrooom ============================== */ 
+/* ========================= MODAL mushrooom ============================== */ 
+
+
+.elemento2{
+  background: url(../img/elemento2.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+ }
+
+ .mushroomcontainer {
+  width: 700px;
+  background: rgba(0, 0, 0, 0.7);
+  margin-top: 150px;
+  margin-left: 200px;
+}
+
+.mushroomarticle {
+  width: 600px;
+  margin: 20px;
+  padding: 20px 20px;
+}
+
+.mushroomarticle h3 {
+    font-family:'Montserrat', sans-serif;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 30px;
+    letter-spacing: 5px;
+    text-align: center;
+}
+
+.mushroomarticle p {
+    font-family:'Economica', sans-serif;
+    line-height: 24px;
+    font-size: 18px;
+    text-align: justify;
+    color: #fff;
+    letter-spacing: 1px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+
+.mushroomarticle hr {
+  border: 0;
+  width: 300px;
+  height: 1px;
+  linear-gradient(to right, rgba(0, 0, 0, 0), rgba(255, 255, 255, 0.75), rgba(0, 0, 0, 0));
+}
+
+.close-elemento2{
+  position: absolute;
+  top: 30px;
+  right: 30px;
+}
+
+
+ /* ========================= MODAL medusa ============================== */ 
+/* ========================= MODAL medusa ============================== */ 
+/* ========================= MODAL medusa ============================== */ 
+
+
+.elemento3{
+  background: url(../img/elemento3.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+ }
+
+ .jellycontainer {
+  width: 700px;
+  background: rgba(0, 0, 0, 0.7);
+  margin-top: 150px;
+  margin-left: 200px;
+}
+
+.jellyarticle {
+  width: 600px;
+  margin: 20px;
+  padding: 20px 20px;
+}
+
+.jellyarticle h3 {
+    font-family:'Montserrat', sans-serif;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 30px;
+    letter-spacing: 5px;
+    text-align: center;
+}
+
+.jellyarticle p {
+    font-family:'Economica', sans-serif;
+    line-height: 24px;
+    font-size: 18px;
+    text-align: justify;
+    color: #fff;
+    letter-spacing: 1px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+
+.jellyarticle hr {
+  border: 0;
+  width: 300px;
+  height: 1px;
+  linear-gradient(to right, rgba(0, 0, 0, 0), rgba(255, 255, 255, 0.75), rgba(0, 0, 0, 0));
+}
+
+.close-elemento3{
+  position: absolute;
+  top: 30px;
+  right: 30px;
+}
+
+
+
+/* ========================= MODAL mineral ============================== */ 
+/* ========================= MODAL mineral ============================== */ 
+/* ========================= MODAL mineral  ============================== */ 
+
+
+.elemento4{
+  background: url(../img/elemento4.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+ }
+
+
+.mineralcontainer {
+  width: 700px;
+  background: rgba(0, 0, 0, 0.7);
+  margin-top: 150px;
+  margin-left: 200px;
+}
+
+.mineralarticle {
+  width: 600px;
+  margin: 20px;
+  padding: 20px 20px;
+}
+
+.mineralarticle h3 {
+    font-family:'Montserrat', sans-serif;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 30px;
+    letter-spacing: 5px;
+    text-align: center;
+}
+
+.mineralarticle p {
+    font-family:'Economica', sans-serif;
+    line-height: 24px;
+    font-size: 18px;
+    text-align: justify;
+    color: #fff;
+    letter-spacing: 1px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+
+.mineralarticle hr {
+  border: 0;
+  width: 300px;
+  height: 1px;
+  linear-gradient(to right, rgba(0, 0, 0, 0), rgba(255, 255, 255, 0.75), rgba(0, 0, 0, 0));
+}
+
+.close-elemento4{
+  position: absolute;
+  top: 30px;
+  right: 30px;
+}
+
+
+
+
+
+
+
