@@ -1,0 +1,429 @@
+@import url(https://fonts.googleapis.com/css?family=Advent+Pro:400,300,200,100,700,500,600);
+@import url(https://fonts.googleapis.com/css?family=Glegoo:400,700);
+
+body {
+	background: url(../img/home.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+.home {
+height: 900px;
+width: 480px; 
+margin: 0 auto;
+margin-top: 150px;
+
+}
+
+.home a{
+	text-decoration: none;
+	color: inherit;
+}
+
+.home a:hover {
+	color: #000;
+}
+
+
+.homeone {
+	padding-bottom: 20px;
+	padding-top: 20px;
+}
+
+.homeone h1 {
+	font-family:'Advent Pro', sans-serif;
+	color: #cc0000;
+	line-height: 53px;
+	text-transform: uppercase;
+	font-weight: 900;
+	font-size: 49px;
+	clear: both;
+	display: inline-block;
+}
+
+.homeone img {
+	height: 160px;
+	clear: both;
+	display: inline-block;
+	float: right;
+	padding-right: 30px;
+}
+
+.hometwo {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	border-top: 2px solid #cc0000;
+	border-bottom: 2px solid #cc0000;
+
+}
+
+.hometwo p{
+	font-family: 'Glegoo', serif;
+	color: red;
+	line-height: 22px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-size: 13px;
+	text-align: center;
+	color: #cc0000;
+	font-weight: 200px;
+}
+
+.homethree {
+	font-family: 'Courier New', Courier, 'Lucida Sans Typewriter', 'Lucida Typewriter', monospace;
+	text-transform: uppercase;
+	font-weight: bold;
+	margin: 0 auto;
+	font-size: 20px;
+	line-height: 40px;
+	color: #cc0000;
+	padding-top: 20px;
+	letter-spacing: 2px;
+
+}
+
+.estacion1 {
+	display: inline-block;
+}
+
+.estacion2{
+	display: inline-block;
+	float: right;
+}
+
+
+#btn-close-modal {
+	font-family:'Advent Pro', sans-serif;
+   width:100%;
+   text-align: center;
+   cursor:pointer;
+   color:#bfbfbf;
+   border: 1px #bfbfbf solid;
+   border-radius: 3px;
+   width: 20px;
+   height: 20px;
+   margin: 0 auto;
+   margin-top: 50px;
+}
+
+#btn-close-modal p {
+	padding-top: 3px;
+	display: inline-block;
+}
+
+/*.printbtn {
+	border: 2px solid #bfbfbf;
+	border-radius: 4px;
+	font-family: 'Courier New', Courier, 'Lucida Sans Typewriter', 'Lucida Typewriter', monospace;
+	color:#bfbfbf;
+	padding: 10px 5px;
+	width: 100px;
+	text-align: center;
+	display: inline-block;
+	margin: 0 auto;
+}
+
+#eloyprint {
+	text-decoration: none;
+}
+*/
+
+ /* ========================== MODALS ==================================*/
+
+
+ /* ========================== ELOY BLANCO ==================================*/
+
+ .eloy {
+ 	background: url(../img/eloy.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+ }
+
+ .eloycontainer {
+ 	width: 600px;
+ 	height: 500px;
+ 	margin: 0 auto;
+ 	margin-top: 50px;
+ 	position:relative;
+ 	z-index: 2;
+ }
+
+ .eloyuno, .eloydos, .eloytres, .eloycuatro {
+ 	padding: 20px;
+ }
+
+
+.eloysello {
+	width: 600px;
+	height: 50px;
+	position: relative;
+	z-index: 1;
+	margin: 0 auto;
+}
+
+.eloysello img {
+	width: 200px;
+	position: absolute;
+	top: 200px;
+	left: 200px;
+	opacity: 0.7;
+}
+ /* ========================== ELOY 1 ==================================*/
+
+
+ .estrofas {
+ 	display: inline-block;
+ 	vertical-align: center;
+
+ }
+
+ .estrofas p {
+ 	font-family: 'Courier New', Courier, 'Lucida Sans Typewriter', 'Lucida Typewriter', monospace;
+	color: #4d4d4d!important;
+	font-size: 12px;
+	line-height: 14px;
+	color: black;
+	padding-top: 10px;
+ }
+
+ .eloynombre {
+ 	text-align: center;
+ 	display: inline-block;
+ 	float: right;
+ 	vertical-align: center;
+ }
+
+ .eloynombre h1 {
+ 	font-family:'Advent Pro', sans-serif;
+	color: #cc0000;
+	text-transform: uppercase;
+	font-weight: 900;
+	font-size: 49px;
+ }
+
+ .eloynombre h2 {
+ 	font-family:'Advent Pro', sans-serif;
+	color: #cc6600;
+	text-transform: uppercase;
+	font-weight: 900;
+	font-size: 15px;
+ }
+
+  /* ========================== ELOY 2 ==================================*/
+
+.eloydos {
+	clear: both;
+}
+
+ .eloydos .eloynombre{
+ 	float:left;
+ }
+
+ .eloydos .estrofas {
+ 	float: right;
+ 	padding-top: 10px;
+ }
+
+
+/* ========================== ELOY 3 ==================================*/
+
+.eloytres {
+	clear: both;
+}
+
+.eloytres .estrofas {
+	float: left;
+	padding-top: 10px;
+}
+
+
+/* ========================== ELOY 4 ==================================*/
+
+.eloycuatro {
+	clear: both;
+}
+
+.eloycuatro .eloynombre {
+	float: left;
+}
+
+
+ .eloycuatro .estrofas {
+ 	float: right;
+ 	padding-top: 20px;
+ }
+
+
+/* ========================= BOTON ELOY ==================================*/
+
+
+
+/* ========================== Cortazar ==================================*/
+/* ========================== Cortazar ==================================*/
+
+#framecortazar {
+	margin: 0 auto;
+	height:900px;
+	width: 100%;
+	margin-top: 0px;
+}
+
+#modal-02 {
+	background: url(../img/cortazar.jpg); 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/* ========================== DARIO ==================================*/
+/* ========================== DARIO ==================================*/
+
+
+#framedario {
+	margin: 0 auto;
+	height:900px;
+	width: 100%;
+	margin-top: 0px;
+}
+
+#dario {
+	background: url(../img/dario.jpg); 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+/* ========================== Benedetti ==================================*/
+/* ========================== Benedetti ==================================*/
+
+#framebenedetti{
+	margin: 0 auto;
+	height:1500px;
+	width: 100%;
+	margin-top: 0px;
+}
+
+#benedetti {
+	background: url(../img/paper41.jpg); 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/* ========================== zaid ==================================*/
+/* ========================== zaid  ==================================*/
+
+#framezaid{
+	margin: 0 auto;
+	height:900px;
+	width: 100%;
+	margin-top: 0px;
+}
+
+#zaid {
+	background: url(../img/zaid.jpg); 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+/* ========================== huidobro ==================================*/
+/* ========================== huidobro ==================================*/
+
+#framehuidobro{
+	margin: 0 auto;
+	height:900px;
+	width: 100%;
+	margin-top: 0px;
+}
+
+#huidobro {
+	background: url(../img/huidobro.png); 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/* ========================== marti ==================================*/
+/* ========================== marti ==================================*/
+
+#framemarti{
+	margin: 0 auto;
+	height:800px;
+	width: 100%;
+	margin-top: 0px;
+}
+
+#marti {
+	background: url(../img/marti.png); 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/* ========================== mistral ==================================*/
+/* ========================== mistral ==================================*/
+
+#framemistral{
+	margin: 0 auto;
+	height:1000px;
+	width: 100%;
+	margin-top: 0px;
+}
+
+#mistral {
+	background: url(../img/mistral.jpg); 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/* ========================== borges ==================================*/
+/* ========================== borges ==================================*/
+
+#frameborges{
+	margin: 0 auto;
+	height:1000px;
+	width: 100%;
+	margin-top: 0px;
+}
+
+#borges {
+	background: url(../img/home.jpg); 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/* ========================== padron ==================================*/
+/* ========================== padron ==================================*/
+
+#framepadron{
+	margin: 0 auto;
+	height:800px;
+	width: 100%;
+	margin-top: 0px;
+}
+
+#padron {
+	background: url(../img/padron.png); 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}

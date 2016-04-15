@@ -1,0 +1,94 @@
+@import url(https://fonts.googleapis.com/css?family=Advent+Pro:400,300,200,100,700,500,600);
+@import url(https://fonts.googleapis.com/css?family=Glegoo:400,700);
+
+/* body {
+
+background: url(../img/bendetti.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+} */
+
+
+.benedetticontainer {
+	width: 200px;
+	margin: 0 auto;
+	margin-top: 100px;
+	height: 1000px;
+}
+
+.conjugaciones {
+	text-align: center;
+
+}
+
+.conjugaciones h1 {
+	color: #660000 ;
+	font-family:'Advent Pro', sans-serif;
+	font-size: 30px;
+	font-weight: bold;
+	padding-top: 15px;
+	text-transform: uppercase;
+
+}
+
+hr {
+	border-style: solid;
+    color:  #404040;
+}
+
+.titulo {
+	height: 40px;
+	background: #ffaa80;
+	text-align: center;
+}
+
+.titulo h2 {
+		font-family:'Glegoo', serif;
+		color: #660000 ;
+		text-transform: uppercase;
+		font-weight: bold;
+		padding-top: 10px;
+		letter-spacing: 2px;
+}
+
+
+.texto {
+
+}
+
+.texto p{
+	font-family:'Courier New', Courier, 'Lucida Sans Typewriter', 'Lucida Typewriter', monospace;
+	font-size: 15px;
+	line-height: 18px;
+	color:  #404040;
+}
+
+
+.benedetti {
+	height: 40px;
+	background: #ffaa80;
+	text-align: center;
+
+}
+
+.benedetti h1 {
+	color: #660000 ;
+	font-family:'Advent Pro', sans-serif;
+	font-size: 25px;
+	font-weight: bold;
+	padding-top: 10px;
+	text-transform: uppercase;
+
+
+}
+
+.sello {
+	text-align: center;
+}
+
+
+.sello img {
+	width: 150px;
+}

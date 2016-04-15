@@ -1,0 +1,144 @@
+@import url(https://fonts.googleapis.com/css?family=Advent+Pro:400,300,200,100,700,500,600);
+@import url(https://fonts.googleapis.com/css?family=Glegoo:400,700);
+
+/*.modal-cortazar {
+
+background: url(../img/cortazar.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+} */
+
+
+
+.cortazarcontainer {
+	margin: 0 auto;
+	margin-top: 200px;
+	width: 680px;
+	height: 500px;
+	color: #333333;
+	position: relative;
+	z-index: 3;
+}
+
+.sello {
+	margin: 0 auto;
+	position: relative;
+	z-index: 1;
+	width: 680px;
+}
+
+.sello img {
+	position: absolute;
+	opacity: 0.7;
+	height: 160px;
+	left: 330px;
+	top: 80px;
+
+}
+
+.texto1 {
+	width: 470px;
+	display: inline-block;
+	float: left;
+	height: 300px;
+	border-bottom: 2px solid #333333;
+
+}
+
+.title, .info1, .info2 {
+}
+
+.texto1 .title h1{
+	font-family:'Advent Pro', sans-serif;
+	color:#333333;
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 28px;
+	letter-spacing: 2px;
+	padding-bottom: 10px;
+	border-bottom: 4px solid #333333;
+
+}
+
+.texto1 .info1 {
+	width: 250px;
+	display: inline-block;
+	float: left;
+}
+
+.texto1 .info1 p {
+	font-family:'Courier New', Courier, 'Lucida Sans Typewriter', 'Lucida Typewriter', monospace;
+	font-variant: small-caps;
+	font-size: 14px;
+	line-height: 18px;
+	letter-spacing: 1px;
+	padding-top: 10px;
+}
+
+.texto1 .info2 {
+	width: 200px;
+	height: 208px;
+	display: inline-block;
+	float: left;
+	margin-left: 6px;
+	position: relative;
+
+}
+
+.number {
+	position: absolute;
+	left: 60px;
+	padding-top: 15px;
+}
+
+
+
+.autor {
+	position: absolute;
+	bottom: 0px;
+	left: 55px;
+	padding-bottom: 2px;
+}
+
+.texto1 .info2 p {
+	font-family:'Glegoo', serif;
+	text-transform: uppercase;
+	font-size: 16px;
+	line-height: 15px;
+	letter-spacing: 2px;
+	font-weight: bold;
+	line-height: 25px;
+
+}
+
+
+.info3 {
+	border: 1px solid red;
+	width: 195px;
+	height: 300px;
+	display: inline-block;
+	float: right;
+	text-align: center;
+	border: 2px dashed #333333; ;
+}
+
+
+.info3 p {
+	font-family:'Courier New', Courier, 'Lucida Sans Typewriter', 'Lucida Typewriter', monospace;
+	font-size: 15px;
+	line-height: 25px;
+	padding-top: 20px;
+	font-style: italic;
+	font-weight: 600;
+	padding-left: 6px;
+
+}
+
+hr {
+    border-style: solid;
+    border-width: 1px;
+    color: #333333;
+
+}

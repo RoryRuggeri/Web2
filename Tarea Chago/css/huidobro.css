@@ -1,0 +1,129 @@
+@import url(https://fonts.googleapis.com/css?family=Advent+Pro:400,300,200,100,700,500,600);
+@import url(https://fonts.googleapis.com/css?family=Glegoo:400,700);
+
+/*body {
+
+/*background: url(../img/huidobro.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 700px;
+}*/
+
+
+.huidobrocontainer {
+	margin: 0 auto;
+	width: 260px;
+	border: 1px solid black;
+	border-top: 4px solid black;
+	margin-top: 150px;
+	position: relative;
+	z-index: 2;
+}
+
+
+.sello {
+	position: relative;
+	margin: 0 auto;
+	width: 260px;
+	z-index: 1;
+}
+
+.sello img {
+	position: absolute;
+	height: 155px;
+	right: -20px;
+	top: 70px;
+	opacity: 0.7;
+}
+
+hr {
+	border-style: dashed;
+    color:  black;
+    font-weight: 1px;
+}
+
+
+.top {
+	height: 80px;
+	text-align: center;
+}
+
+.top h3 {
+	font-family:'Glegoo', serif;
+	text-transform: uppercase;
+	font-size: 13px;
+	letter-spacing: 2px;
+	padding-top: 20px;
+
+
+}
+
+
+.top h1 {
+	font-family:'Advent Pro', sans-serif;
+	text-transform: uppercase;
+	font-size: 27px;
+	padding-top: 10px;
+	font-weight: bold;
+}
+
+.title {
+	text-align: center;
+	height: 70px;
+	padding-top: 10px;
+
+
+}
+
+.title h1 {
+	font-family:'Advent Pro', sans-serif;
+	text-transform: uppercase;
+	font-size: 60px;
+	font-weight: bolder;
+
+}
+
+
+.poema {
+
+	font-family:'Courier New', Courier, 'Lucida Sans Typewriter', 'Lucida Typewriter', monospace;
+	margin-right: 10px;
+	margin-left: 10px;
+
+}
+
+.poema p {
+	font-size: 14px;
+	line-height: 17px;
+	color:  black;
+	text-align: left;
+	padding: 20px 5px
+
+}
+
+
+.footer {
+	height: 70px;
+	position: relative;
+	font-family:'Glegoo', serif;
+}
+
+.footer .price {
+	display: inline-block;
+	position: absolute;
+	bottom: 10px;
+	left: 10px;
+	font-weight: bold;
+	font-size: 30px;
+}
+
+.footer .number {
+	display: inline-block;
+	position: absolute;
+	bottom: 10px;
+	right: 10px;
+	font-weight: bold;
+	font-size: 15px;
+}

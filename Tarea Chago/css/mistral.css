@@ -1,0 +1,99 @@
+@import url(https://fonts.googleapis.com/css?family=Advent+Pro:400,300,200,100,700,500,600);
+@import url(https://fonts.googleapis.com/css?family=Glegoo:400,700);
+
+/*body {
+
+background: url(../img/mistral.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 900px;
+}*/
+
+.mistralcontainer {
+	margin: 0 auto;
+	width: 615px;
+	margin-top: 150px;
+	border-top: 4px solid black;
+	border-bottom: 4px solid black;
+	position: relative;
+	z-index: 2;
+}
+
+.sello {
+	width: 615px;
+	margin: 0 auto;
+	position: relative;
+	z-index: 1;
+}
+
+.sello img {
+	position: absolute;
+	top:220px;
+	left:-20px;
+	height: 180px;
+}
+
+
+
+.fila1, .fila2, .fila3 {
+	width: 615px;
+	height: 140px;
+	clear: both;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+.fila1 div, .fila2 div, .fila3 div{
+}
+
+.poema {
+	display: inline-block;
+	width: 350px;
+	margin-top: 30px;
+	padding-left: 15px;
+
+}
+
+.box {
+	display: inline-block;
+	width: 250px;
+	height: 130px ;
+	background: #330011;
+	float: right;
+}
+
+.box h1 {
+	font-family:'Advent Pro', sans-serif;
+	text-transform: uppercase;
+	font-size: 35px;
+	font-weight: bold;
+	padding-left: 15px;
+	padding-top: 50px;
+	color: #c14a5a;
+
+}
+
+.poema p {
+	font-family:'Courier New', Courier, 'Lucida Sans Typewriter', 'Lucida Typewriter', monospace;
+	font-size: 16px;
+	line-height: 21px;
+	text-align: left;
+	font-weight: bold;
+	color: #330011;
+}
+
+.box img {
+	height: 80px;
+	text-align: center;
+	padding-top: 30px;
+	padding-left:30px;
+}
+
+
+hr {
+	border-style: dashed;
+    color:  black;
+    font-weight: 1px;
+}

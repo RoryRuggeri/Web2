@@ -1,0 +1,142 @@
+@import url(https://fonts.googleapis.com/css?family=Advent+Pro:400,300,200,100,700,500,600);
+@import url(https://fonts.googleapis.com/css?family=Glegoo:400,700);
+
+/*body {
+
+background: url(../img/dario.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+} */
+
+
+.dariocontainer {
+	margin: 0 auto;
+	width: 700px;
+	margin-top: 150px;
+	position:relative;
+	z-index: 2;
+}
+
+.banner {
+	width: 700px;
+	position: relative;
+	z-index: 1;
+	margin: 0 auto;
+}
+
+.banner1 {
+	position: absolute;
+	top: 40px;
+	height: 30px;
+	width: 700px;
+	background: #006bb3;
+	opacity: 0.8;  
+}
+
+.banner2 {
+	position: absolute;
+	top: 133px;
+	height: 30px;
+	width: 700px;
+	background: #006bb3; 
+	opacity: 0.8;  
+}
+
+.banner img {
+	position: absolute;
+	top: 240px;
+	right: -15px;
+	height: 140px;
+
+}
+
+/* ========================== info1 ==================================*/
+
+
+
+.info1 {
+		position: relative;
+		height: 38px;
+
+}
+
+.info1 p {
+	color: #0066cc ;
+	font-family:'Glegoo', serif;
+	font-size: 16px;
+	letter-spacing: 3px;
+	font-weight: bold;
+	padding-top: 10px;
+	padding-bottom:10px;
+}
+
+.serie {
+	position: absolute;
+	left: 0px;
+	display: inline-block;
+}
+
+.number {
+	position: absolute;
+	right: 0px;
+	display: inline-block;
+}
+
+/* ========================== title ==================================*/
+
+.title {
+	text-align: center;
+	text-transform: uppercase;
+	padding-top: 10;
+}
+
+.title h2 {
+	color: #0d0d0d ;
+	font-family:'Advent Pro', sans-serif;
+	font-size: 30px;
+	font-weight: bold;
+	padding-top: 15px;
+
+}
+
+.title p {
+	color: #737373 ;
+	font-family:'Advent Pro', sans-serif;
+	font-size: 16px;
+	padding-top: 8px;
+	padding-bottom:5px;
+
+}
+
+.title h1 {
+	color: #0d0d0d;
+	font-family:'Advent Pro', sans-serif;
+	font-size: 42px;
+	font-weight: bold;
+	padding-bottom:10px;
+
+}
+
+
+
+/* ========================== poem ==================================*/
+
+.poem {
+	color: #0d0d0d;
+	margin-top: 40px;
+
+}
+
+.poem p{
+	font-family:'Courier New', Courier, 'Lucida Sans Typewriter', 'Lucida Typewriter', monospace;
+	font-variant: small-caps;
+	font-size: 18px;
+	line-height: 23px;
+	letter-spacing: 1px;
+	padding-top: 10px;
+	text-align: justify;
+
+
+}
