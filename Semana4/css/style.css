@@ -1,0 +1,231 @@
+body {
+	margin: 0;
+}
+
+#quote-content {
+	text-align: center;
+	position: fixed;  /* CSS-Only Technique #1 https://css-tricks.com/perfect-full-page-background-image/ */ 
+	padding-top: 250px;
+	min-height: 100%;
+  	min-width: 1024px;
+	width: 100%;
+	height: auto;
+	background-color: white;
+	background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: scroll;
+    background-size: cover;
+    color: white;
+    margin:0;
+}
+
+#quote-background {
+	background-color: rgba(10, 10, 10, 0.7);
+	border-radius: 15px;
+}
+
+/* =====================BAZZINGA==================== */
+.button {
+	border-color: white;
+	color: white;
+	font-weight: lighter;
+}
+
+#new-quote, #change {
+	color: white !important;
+	background: transparent;
+	letter-spacing: 1px;
+}
+
+/* Como ya le habias asignado un estilo a #new-quote el a:hover no le hace efecto. Necesitas ser más específica en el CSS y asignarle a #new-quote:hover! */
+#new-quote:hover {
+  background: #fff;
+  color: #595959!important;
+}
+
+#change:hover {
+  background: #fff;
+  color: #595959!important;
+}
+
+/* Este es el hover para todos los links */
+a:hover {
+  background: #fff;
+  color: #595959!important;
+}
+
+
+/* =====================BAZZINGA==================== */
+
+/* =====================FOOTER==================== */
+
+#footer {
+	position: fixed;
+	width: 100%;
+	height: 70px; /* Lo agrande para que quepa el google search. Gracias <3!! */
+	text-align: left;
+	padding-left: 20px;
+    bottom: 0;
+	background-color: rgba(10, 10, 10, 0.65);
+	color: white;
+	
+}
+
+#quote {
+	font-size: 28px;
+	letter-spacing: 2px;
+	font-family: 'Raleway', sans-serif;
+	font-weight: lighter;
+	padding: 10px;
+}
+
+
+/************************ CLOCK *****************************/
+
+#output {
+  font-family: 'Raleway', sans-serif;
+  font-size: 30px;
+  font-weight: lighter;
+  color: white;
+  letter-spacing: 2px;
+  position: absolute;
+  right: 30px;
+  top: 10px;
+  z-index: 1;
+  background-color: rgba(10, 10, 10, 0.7);
+  border-radius: 10px;
+  padding: 5px 20px;
+  width: 200px; /* No tenias un ancho y alto definido. Ok, gracias!!! */
+  height: 50px; /* No tenias un ancho y alto definido */
+  text-align: center; /* Para centralizar el reloj */
+}
+
+/************************ search button *****************************/
+
+.button, button, input[type=button], input[type=reset], input[type=submit] {
+    display: inline-block;
+    height: 38px;
+    padding: 0 30px;
+    color: #fff;
+    text-align: center;
+    font-size: 11px;
+    font-weight: 600;
+    line-height: 38px;
+    letter-spacing: .1rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    white-space: nowrap;
+    background-color: transparent;
+    border-radius: 4px;
+    border: 1px solid #bbb;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+
+.button, button, input[type=submit]:hover{
+	background: #fff;
+	color: #595959!important;
+}
+
+/************************ FORM *****************************/
+
+#searchbox_demo {
+	padding-top: 15px;
+	float: left;
+}
+
+
+/************************ SOCIAL BUTTONS *****************************/
+
+/*@import url(http://weloveiconfonts.com/api/?family=brandico);
+
+ brandico */
+
+[class*="brandico-"]:before {
+  font-family: 'brandico', sans-serif;
+}
+
+.social {
+	padding-right: 50px;
+}
+ul.social-buttons {
+  text-align: center;
+  margin-top: 15px;
+  float:right;
+}
+
+ul.social-buttons li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+ul.social-buttons li a {
+  width: 40px;
+  height: 40px;
+  display: block;
+  border-radius: 30px;
+  text-decoration: none;
+  font-size: 10px;
+  line-height: 10px;
+  color: white;
+}
+
+ul.social-buttons li a.brandico-twitter-bird {
+  background-color: #4099FF;
+}
+
+ul.social-buttons li a.brandico-facebook {
+  background-color: #3B5998;
+}
+
+ul.social-buttons li a.brandico-instagram {
+  background-color: #3f729b;
+}
+
+ul.social-buttons img{
+	width: 25px;
+	height: 25px;
+	margin: 0 auto;
+	padding-top: 7px;
+	text-align: center;
+}
+/*Demo 1*/
+
+ul#demo1 li a {
+  transition: transform 0.2s linear;
+}
+
+ul#demo1 li:hover a {
+  transform: translateY(-10px);
+}
+
+/************************ GREETING *****************************/
+
+#greeting {
+	font-family: 'Raleway', sans-serif;
+  font-size: 30px;
+  font-weight: lighter;
+  color: white;
+  text-shadow: 2px 2px 8px #1a1a1a;
+  letter-spacing: 2px;
+	position: absolute;
+  left: 30px;
+  top: 10px;
+  z-index: 1;
+
+}
+
+#greeting span {
+	font-weight: 300;
+}
+
+
+/************************ Change Theme *****************************/
+
+.change {
+  margin-top: 15px;
+  margin-left: 30px;
+  width: 200px;
+  float: left;
+  text-align: center;
+}
