@@ -1,0 +1,232 @@
+@import url(https://fonts.googleapis.com/css?family=IM+Fell+Great+Primer:400,400italic);
+@import url(https://fonts.googleapis.com/css?family=IM+Fell+Great+Primer+SC);
+@import url(https://fonts.googleapis.com/css?family=Montez);
+@import url(https://fonts.googleapis.com/css?family=Almendra:400,700italic,700,400italic);
+
+body {
+  background: url(../img/background_desk.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.container {
+position: relative;
+margin: 0 auto;
+width: 550px;
+height: 705px;
+margin-top: 30px;
+}
+
+.container img{
+	height: 700px;
+  position: absolute;
+  z-index: 1;
+
+}
+
+.contents {
+	position: absolute;
+	z-index: 2;
+}
+
+.intro {
+	width: 460px;
+	margin-top: 110px;
+	text-align: center;
+	margin-left:  40px;
+
+}
+
+.contents h1 {
+	font-family: 'IM Fell Great Primer', serif;
+	text-transform: uppercase;
+	font-size: 23px;
+	color: #0d0d0d;
+	font-weight: bold;
+	letter-spacing: 2px;
+}
+
+.contents h2 {
+	font-family: 'IM Fell Great Primer', serif;
+	text-transform: uppercase;
+	font-size: 12px;
+	letter-spacing: 1px;
+	color: #0d0d0d;
+	padding-top: 20px;
+	font-weight: bold;
+}
+
+.contents p {
+	font-family: 'IM Fell Great Primer', serif;
+	font-variant: small-caps;
+	font-size: 13px;
+	color: #0d0d0d;
+	padding-top: 10px;
+	font-weight: bold;
+}
+
+.contents h3 {
+	font-family: 'IM Fell Great Primer', serif;
+	text-transform: uppercase;
+	font-size: 16px;
+	color: #0d0d0d;
+	padding-top: 18px;
+	font-weight: bold;
+	letter-spacing: 1px;
+}
+
+/* ======================= LABELS  ================================= */
+
+#myform {
+	width: 410px;
+	margin-left: 60px;
+	text-align: center;
+}
+
+
+#myform label.error {
+			  color: #cc0000;
+			  font-size: 10px;
+			  font-family: 'Almendra', sans-serif;
+			  text-transform: lowercase;
+			  position: relative;
+			  display: block;
+	}
+
+label {
+	font-family: 'IM Fell Great Primer', serif;
+	text-transform: uppercase;
+	font-size: 11px;
+	color: #0d0d0d;
+	font-weight: bold;
+	width: 100%;
+
+}
+
+input {
+	border: none;
+    border-bottom: 1px solid #0d0d0d;
+    background-color: transparent;
+    margin-top: 2px;
+    font-family: 'Montez', serif;
+    color: #330000;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+input:focus {
+    outline: none;
+}
+
+textarea {
+    width: 100%;
+    height: 100px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 1px solid #0d0d0d;
+    border-radius: 4px;
+    background-color: transparent;
+    resize: none;
+    margin-top: 10px;
+    font-family: 'Montez', serif;
+    color: #330000;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+textarea:focus {
+	outline: none;
+}
+
+.labelname {
+	display: inline;
+	float: left;
+
+	width: 190px;
+}
+
+.labellast {
+	display: inline-block;
+	margin-left: 20px;
+	width: 190px;
+}
+
+
+.number{
+	display: inline;
+	float: left;
+
+	width: 190px;
+}
+
+.mail {
+
+	display: inline-block;
+	margin-left: 20px;
+	width: 190px;
+}
+
+.city{
+	display: inline;
+	float: left;
+	width: 190px;
+}
+
+.country {
+	display: inline-block;
+	margin-left: 20px;
+	width: 190px;
+}
+
+.row1, .row2, .row3 {
+	margin-top: 10px;
+}
+
+.essay {
+	margin-top: 10px;
+}
+
+
+::-webkit-input-placeholder {
+   color: #996633;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   color: #996633;  
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: #996633;  
+}
+
+:-ms-input-placeholder {  
+   color: #996633;  
+}
+
+
+
+button {
+	text-align: center;
+    background-color: transparent;
+   	border-bottom: 1px solid #0d0d0d;
+    font-family: 'Almendra', serif;
+    font-weight: bolder;
+	text-transform: uppercase;
+	font-size: 12px;
+	letter-spacing: 1px;
+	color: #0d0d0d;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+button:focus {
+ outline: none;
+}
+
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
