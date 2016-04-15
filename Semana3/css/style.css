@@ -1,0 +1,113 @@
+html {
+	background: url(../img/bg.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  text-align: center;
+  	margin: 0 auto;
+
+}
+
+.contenedor {
+	  font-family:'Montserrat', sans-serif;
+	margin: 0 auto;
+
+}
+
+.main {
+margin: 0 auto;
+}
+
+.main img {
+	width: 120px;
+	padding-top: 200px;
+	display: inline;
+}
+
+.main h1 {
+color:white;
+font-size: 80px;
+font-weight: bolder;
+vertical-align: middle;
+letter-spacing: 10px;
+text-transform: uppercase;
+padding-top: 30px;
+text-shadow: 2px 2px 8px #00001a;
+}
+
+.main h2 {
+color:white;
+font-size: 18px;
+font-weight: lighter;
+vertical-align: middle;
+letter-spacing: 10px;
+text-transform: uppercase;
+padding-top: 30px;
+text-shadow: 2px 2px 8px #00001a;
+}
+
+/*==================================Buttons==================================*/
+
+.buttons {
+	text-align: center;
+	margin:0 auto;
+	padding-top: 80px;
+}
+
+button,
+button::after {
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+button {
+  background: rgba(204, 82, 0, 0.7);
+  border: 2px solid #fff;
+  color: #fff;
+display: inline-block;
+  font-size: 12px;
+  font-weight: bold;
+  margin: 5em 3em auto;
+  padding: 1em 2em;
+  position: relative;
+  text-transform: uppercase;
+  text-align: center;
+  /*opacity: 0.7;*/
+  letter-spacing: 5px;
+}
+
+button::before,
+button::after {
+  background: #fff;
+  content: '';
+  position: absolute;
+  z-index: -1;
+}
+
+button:hover {
+  color: #fff;
+}
+
+/*==================================Button 1 ==================================*/
+
+.btn-1::after {
+  height: 0;
+  left: 0;
+  top: 0;
+  width: 100%;
+}
+
+.btn-1:hover:after {
+  height: 100%;
+}
+
+
+/*================================== links ==================================*/
+
+a {
+	text-decoration: none;
+	color: #fff;
+}
